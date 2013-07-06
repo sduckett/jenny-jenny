@@ -1,0 +1,2257 @@
+#V 2.3.0
+version 4
+HQ {
+soundlib "SL-DFH"
+mastervol 1
+}
+laylims {
+"KickR" 6 6 6
+"KickL" 6 6 6
+"Snare" 4 2 4 {
+"snareR" 6 4 6
+}
+"Hats" 4 2 4 {
+"hatsCL" 6 4 6
+"hatsTP" 6 4 6
+"hatsSQH" 6 4 6
+}
+"Tom1" 4 2 4
+"Tom2" 4 2 4
+"Tom3" 4 2 4
+"Tom4" 4 2 4
+"Tom5" 4 2 4
+"Ride4" 4 2 4 {
+"ride4" 6 4 6
+"ride4PU" 2 2 4
+"ride4M" 2 2 4
+}
+"Ride5" 4 2 4 {
+"ride5" 6 4 6
+"ride5PU" 2 2 4
+"ride5M" 2 2 4
+}
+"Ride0" 4 2 4 {
+"ride0" 6 4 6
+"ride0PU" 2 2 4
+"ride0M" 2 2 4
+}
+"Crash1" 2 2 4
+"Crash2" 2 2 4
+"Crash3" 2 2 4
+"Crash4" 2 2 4
+"Crash5" 2 2 4
+"Crash6" 2 2 4
+"China1" 2 2 4
+"China2" 2 2 4
+"Splash1" 2 2 4
+"Spock" 2 2 4
+"Cowbell" 4 2 4
+"CountIn" 4 2 4
+}
+drums {
+sticks  "Drumsticks"
+kicktool "Felt"
+crmat 1
+"KickR" "KD_MESHUGGAH_R"
+"KickL" "KD_MESHUGGAH_L"
+"Snare" "SD_ZEPPELIN4"
+"Hats" "Hats1"
+"Tom1" "T1_METALLICA"
+"Tom2" "T2_METALLICA"
+"Tom3" "T3_METALLICA"
+"Tom4" "T4_METALLICA"
+"Tom5" "T5_METALLICA"
+"Ride4" "MESHUGGAH_BELL"
+"Ride5" ""
+"Ride0" ""
+"Crash1" ""
+"Crash2" "18Sabian2_2"
+"Crash3" "20Sabian3_1"
+"Crash4" ""
+"Crash5" "21Sabian5_1"
+"Crash6" ""
+"China1" ""
+"China2" "19Chinese5_1"
+"Splash1" "10Sabian2_1"
+"Spock" ""
+"Cowbell" ""
+"CountIn" ""
+}
+pads {
+pad snareTrig {
+cycle S 
+velvolsoft 0
+velvol
+sendnoteoff
+}
+pad snareCtrl {
+cycle S 
+velvolsoft 0
+velvol
+sendnoteoff
+}
+pad hatsBellTrig {
+cycle S 
+velvolsoft 0
+velvol
+sendnoteoff
+}
+pad hatsTipTrig {
+cycle S 
+velvolsoft 0
+velvol
+sendnoteoff
+}
+pad hatsTrig {
+cycle S 
+velvolsoft 0
+velvol
+sendnoteoff
+}
+pad hatsCtrl {
+cycle S 
+velvolsoft 0
+velvol
+sendnoteoff
+}
+pad kickR {
+cycle S 
+velvolsoft 0
+velvol
+}
+pad kickL {
+cycle S 
+velvolsoft 0
+velvol
+}
+pad snareR {
+cycle S 
+velvolsoft 0
+velvol
+}
+pad hatsCL {
+cycle S 
+velvolsoft 0
+velvol
+}
+pad hatsTP {
+cycle S 
+velvolsoft 0
+velvol
+}
+pad hatsPL {
+cycle S 
+velvolsoft 0
+velvol
+}
+pad hatsO2 {
+cycle S 
+velvolsoft 0
+velvol
+}
+pad tom1R {
+cycle S 
+velvolsoft 0
+velvol
+}
+pad tom2R {
+cycle S 
+velvolsoft 0
+velvol
+}
+pad tom3R {
+cycle S 
+velvolsoft 0
+velvol
+}
+pad tom4R {
+cycle S 
+velvolsoft 0
+velvol
+}
+pad tom5R {
+cycle S 
+velvolsoft 0
+velvol
+}
+pad ride4 {
+cycle S 
+velvolsoft 0
+velvol
+}
+pad ride5 {
+cycle S 
+velvolsoft 0
+velvol
+}
+pad ride0 {
+cycle S 
+velvolsoft 0
+velvol
+}
+pad crash2 {
+cycle S 
+velvolsoft 0
+velvol
+}
+pad splash2 {
+cycle S 
+velvolsoft 0
+velvol
+}
+pad crash5 {
+cycle S 
+velvolsoft 0
+velvol
+}
+pad china5 {
+cycle S 
+velvolsoft 0
+velvol
+}
+pad snareSL {
+cycle S 
+velvolsoft 0
+velvol
+}
+pad snareFX {
+cycle S 
+velvolsoft 0
+velvol
+}
+pad snareFO {
+cycle S 
+velvolsoft 0
+velvol
+}
+pad hatsO1 {
+cycle S 
+velvolsoft 0
+velvol
+}
+pad hatsO3 {
+cycle S 
+velvolsoft 0
+velvol
+}
+pad hatsO4 {
+cycle S 
+velvolsoft 0
+velvol
+}
+pad hatsO5 {
+cycle S 
+velvolsoft 0
+velvol
+}
+pad hatsTT {
+cycle S 
+velvolsoft 0
+velvol
+}
+pad hatsCT {
+cycle S 
+velvolsoft 0
+velvol
+}
+pad hatsLO {
+cycle S 
+velvolsoft 0
+velvol
+}
+pad ride4BL {
+cycle S 
+velvolsoft 0
+velvol
+}
+pad ride4PU {
+cycle S 
+velvolsoft 0
+velvol
+}
+pad ride5BL {
+cycle S 
+velvolsoft 0
+velvol
+}
+pad ride5PU {
+cycle S 
+velvolsoft 0
+velvol
+}
+pad ride0BL {
+cycle S 
+velvolsoft 0
+velvol
+}
+pad ride0PU {
+cycle S 
+velvolsoft 0
+velvol
+}
+pad crash1 {
+cycle S 
+velvolsoft 0
+velvol
+}
+pad crash3 {
+cycle S 
+velvolsoft 0
+velvol
+}
+pad crash4 {
+cycle S 
+velvolsoft 0
+velvol
+}
+pad crash6 {
+cycle S 
+velvolsoft 0
+velvol
+}
+pad china1 {
+cycle S 
+velvolsoft 0
+velvol
+}
+pad spock3 {
+cycle S 
+velvolsoft 0
+velvol
+}
+pad hatsBL {
+cycle S 
+velvolsoft 0
+velvol
+}
+pad hatsB1 {
+cycle S 
+velvolsoft 0
+velvol
+}
+pad hatsB2 {
+cycle S 
+velvolsoft 0
+velvol
+}
+pad tom1FX {
+cycle S 
+velvolsoft 0
+velvol
+}
+pad tom2FX {
+cycle S 
+velvolsoft 0
+velvol
+}
+pad tom3FX {
+cycle S 
+velvolsoft 0
+velvol
+}
+pad tom4FX {
+cycle S 
+velvolsoft 0
+velvol
+}
+pad tom5FX {
+cycle S 
+velvolsoft 0
+velvol
+}
+pad ride4FR {
+cycle S 
+velvolsoft 0
+velvol
+}
+pad ride4BT {
+cycle S 
+velvolsoft 0
+velvol
+}
+pad ride5FR {
+cycle S 
+velvolsoft 0
+velvol
+}
+pad ride5BT {
+cycle S 
+velvolsoft 0
+velvol
+}
+pad ride0FR {
+cycle S 
+velvolsoft 0
+velvol
+}
+pad ride0BT {
+cycle S 
+velvolsoft 0
+velvol
+}
+pad snareFL {
+cycle S 
+velvolsoft 0
+velvol
+}
+pad snareRF {
+cycle S 
+velvolsoft 0
+velvol
+}
+pad hatsPLO {
+cycle S 
+velvolsoft 0
+velvol
+}
+pad hatsSQH {
+ cycle NOT S 
+cycle NOT H 
+velvolsoft 0
+}
+pad ride4M {
+ cycle NOT S 
+cycle NOT H 
+velvolsoft 0
+}
+pad ride5M {
+ cycle NOT S 
+cycle NOT H 
+velvolsoft 0
+}
+pad ride0M {
+ cycle NOT S 
+cycle NOT H 
+velvolsoft 0
+}
+pad crash1M {
+ cycle NOT S 
+cycle NOT H 
+velvolsoft 0
+}
+pad crash2M {
+ cycle NOT S 
+cycle NOT H 
+velvolsoft 0
+}
+pad crash3M {
+ cycle NOT S 
+cycle NOT H 
+velvolsoft 0
+}
+pad crash4M {
+ cycle NOT S 
+cycle NOT H 
+velvolsoft 0
+}
+pad crash5M {
+ cycle NOT S 
+cycle NOT H 
+velvolsoft 0
+}
+pad crash6M {
+ cycle NOT S 
+cycle NOT H 
+velvolsoft 0
+}
+pad china1M {
+ cycle NOT S 
+cycle NOT H 
+velvolsoft 0
+}
+pad china5M {
+ cycle NOT S 
+cycle NOT H 
+velvolsoft 0
+}
+pad splash2M {
+ cycle NOT S 
+cycle NOT H 
+velvolsoft 0
+}
+pad CowbellTip {
+cycle S 
+velvolsoft 0
+velvol
+}
+pad CowbellEdge {
+cycle S 
+velvolsoft 0
+velvol
+}
+pad CountIns {
+cycle S 
+velvolsoft 0
+velvol
+}
+}
+padsoftvel {
+pad snareTrig {
+velocityknee L 5
+}
+pad snareCtrl {
+velocityknee L 5
+}
+pad hatsBellTrig {
+velocityknee L 5
+}
+pad hatsTipTrig {
+velocityknee L 5
+}
+pad hatsTrig {
+velocityknee L 5
+}
+pad hatsCtrl {
+velocityknee L 5
+}
+pad kickR {
+velocityknee L 5
+}
+pad kickL {
+velocityknee L 5
+}
+pad snareR {
+velocityknee L 5
+}
+pad hatsCL {
+velocityknee L 5
+}
+pad hatsTP {
+velocityknee L 5
+}
+pad hatsPL {
+velocityknee L 5
+}
+pad hatsO2 {
+velocityknee L 5
+}
+pad tom1R {
+velocityknee L 5
+}
+pad tom2R {
+velocityknee L 5
+}
+pad tom3R {
+velocityknee L 5
+}
+pad tom4R {
+velocityknee L 5
+}
+pad tom5R {
+velocityknee L 5
+}
+pad ride4 {
+velocityknee L 5
+}
+pad ride5 {
+velocityknee L 5
+}
+pad ride0 {
+velocityknee L 5
+}
+pad crash2 {
+velocityknee L 5
+}
+pad splash2 {
+velocityknee L 5
+}
+pad crash5 {
+velocityknee L 5
+}
+pad china5 {
+velocityknee L 5
+}
+pad snareSL {
+velocityknee L 5
+}
+pad snareFX {
+velocityknee L 5
+}
+pad snareFO {
+velocityknee L 5
+}
+pad hatsO1 {
+velocityknee L 5
+}
+pad hatsO3 {
+velocityknee L 5
+}
+pad hatsO4 {
+velocityknee L 5
+}
+pad hatsO5 {
+velocityknee L 5
+}
+pad hatsTT {
+velocityknee L 5
+}
+pad hatsCT {
+velocityknee L 5
+}
+pad hatsLO {
+velocityknee L 5
+}
+pad ride4BL {
+velocityknee L 5
+}
+pad ride4PU {
+velocityknee L 5
+}
+pad ride5BL {
+velocityknee L 5
+}
+pad ride5PU {
+velocityknee L 5
+}
+pad ride0BL {
+velocityknee L 5
+}
+pad ride0PU {
+velocityknee L 5
+}
+pad crash1 {
+velocityknee L 5
+}
+pad crash3 {
+velocityknee L 5
+}
+pad crash4 {
+velocityknee L 5
+}
+pad crash6 {
+velocityknee L 5
+}
+pad china1 {
+velocityknee L 5
+}
+pad spock3 {
+velocityknee L 5
+}
+pad hatsBL {
+velocityknee L 5
+}
+pad hatsB1 {
+velocityknee L 5
+}
+pad hatsB2 {
+velocityknee L 5
+}
+pad tom1FX {
+velocityknee L 5
+}
+pad tom2FX {
+velocityknee L 5
+}
+pad tom3FX {
+velocityknee L 5
+}
+pad tom4FX {
+velocityknee L 5
+}
+pad tom5FX {
+velocityknee L 5
+}
+pad ride4FR {
+velocityknee L 5
+}
+pad ride4BT {
+velocityknee L 5
+}
+pad ride5FR {
+velocityknee L 5
+}
+pad ride5BT {
+velocityknee L 5
+}
+pad ride0FR {
+velocityknee L 5
+}
+pad ride0BT {
+velocityknee L 5
+}
+pad snareFL {
+velocityknee L 5
+}
+pad snareRF {
+velocityknee L 5
+}
+pad hatsPLO {
+velocityknee L 5
+}
+pad hatsSQH {
+velocityknee L 5
+}
+pad ride4M {
+velocityknee L 5
+}
+pad ride5M {
+velocityknee L 5
+}
+pad ride0M {
+velocityknee L 5
+}
+pad crash1M {
+velocityknee L 5
+}
+pad crash2M {
+velocityknee L 5
+}
+pad crash3M {
+velocityknee L 5
+}
+pad crash4M {
+velocityknee L 5
+}
+pad crash5M {
+velocityknee L 5
+}
+pad crash6M {
+velocityknee L 5
+}
+pad china1M {
+velocityknee L 5
+}
+pad china5M {
+velocityknee L 5
+}
+pad splash2M {
+velocityknee L 5
+}
+pad CowbellTip {
+velocityknee L 5
+}
+pad CowbellEdge {
+velocityknee L 5
+}
+pad CountIns {
+velocityknee L 5
+}
+}
+padpadvol {
+pad ride4 {
+pvolume 1.4079
+}
+pad ride5 {
+pvolume 1.4079
+}
+pad ride0 {
+pvolume 1.4079
+}
+pad ride4BL {
+pvolume 1.4079
+}
+pad ride4PU {
+pvolume 1.4079
+}
+pad ride5BL {
+pvolume 1.4079
+}
+pad ride5PU {
+pvolume 1.4079
+}
+pad ride0BL {
+pvolume 1.4079
+}
+pad ride0PU {
+pvolume 1.4079
+}
+pad ride4FR {
+pvolume 1.4079
+}
+pad ride4BT {
+pvolume 1.4079
+}
+pad ride5FR {
+pvolume 1.4079
+}
+pad ride5BT {
+pvolume 1.4079
+}
+pad ride0FR {
+pvolume 1.4079
+}
+pad ride0BT {
+pvolume 1.4079
+}
+pad ride4M {
+pvolume 1.4079
+}
+pad ride5M {
+pvolume 1.4079
+}
+pad ride0M {
+pvolume 1.4079
+}
+}
+padpoly {
+pad snareTrig {
+maxpoly 4
+}
+pad snareCtrl {
+maxpoly 4
+}
+pad hatsBellTrig {
+maxpoly 4
+}
+pad hatsTipTrig {
+maxpoly 4
+}
+pad hatsTrig {
+maxpoly 4
+}
+pad hatsCtrl {
+maxpoly 4
+}
+pad kickR {
+maxpoly 4
+}
+pad kickL {
+maxpoly 4
+}
+pad snareR {
+maxpoly 4
+}
+pad hatsCL {
+maxpoly 4
+}
+pad hatsTP {
+maxpoly 4
+}
+pad hatsPL {
+maxpoly 4
+}
+pad hatsO2 {
+maxpoly 4
+}
+pad tom1R {
+maxpoly 4
+}
+pad tom2R {
+maxpoly 4
+}
+pad tom3R {
+maxpoly 4
+}
+pad tom4R {
+maxpoly 4
+}
+pad tom5R {
+maxpoly 4
+}
+pad ride4 {
+maxpoly 4
+}
+pad ride5 {
+maxpoly 4
+}
+pad ride0 {
+maxpoly 4
+}
+pad crash2 {
+maxpoly 4
+}
+pad splash2 {
+maxpoly 4
+}
+pad crash5 {
+maxpoly 4
+}
+pad china5 {
+maxpoly 4
+}
+pad snareSL {
+maxpoly 4
+}
+pad snareFX {
+maxpoly 4
+}
+pad snareFO {
+maxpoly 4
+}
+pad hatsO1 {
+maxpoly 4
+}
+pad hatsO3 {
+maxpoly 4
+}
+pad hatsO4 {
+maxpoly 4
+}
+pad hatsO5 {
+maxpoly 4
+}
+pad hatsTT {
+maxpoly 4
+}
+pad hatsCT {
+maxpoly 4
+}
+pad hatsLO {
+maxpoly 4
+}
+pad ride4BL {
+maxpoly 4
+}
+pad ride4PU {
+maxpoly 4
+}
+pad ride5BL {
+maxpoly 4
+}
+pad ride5PU {
+maxpoly 4
+}
+pad ride0BL {
+maxpoly 4
+}
+pad ride0PU {
+maxpoly 4
+}
+pad crash1 {
+maxpoly 4
+}
+pad crash3 {
+maxpoly 4
+}
+pad crash4 {
+maxpoly 4
+}
+pad crash6 {
+maxpoly 4
+}
+pad china1 {
+maxpoly 4
+}
+pad spock3 {
+maxpoly 4
+}
+pad hatsBL {
+maxpoly 4
+}
+pad hatsB1 {
+maxpoly 4
+}
+pad hatsB2 {
+maxpoly 4
+}
+pad tom1FX {
+maxpoly 4
+}
+pad tom2FX {
+maxpoly 4
+}
+pad tom3FX {
+maxpoly 4
+}
+pad tom4FX {
+maxpoly 4
+}
+pad tom5FX {
+maxpoly 4
+}
+pad ride4FR {
+maxpoly 4
+}
+pad ride4BT {
+maxpoly 4
+}
+pad ride5FR {
+maxpoly 4
+}
+pad ride5BT {
+maxpoly 4
+}
+pad ride0FR {
+maxpoly 4
+}
+pad ride0BT {
+maxpoly 4
+}
+pad snareFL {
+maxpoly 4
+}
+pad snareRF {
+maxpoly 4
+}
+pad hatsPLO {
+maxpoly 4
+}
+pad hatsSQH {
+maxpoly 4
+}
+pad ride4M {
+maxpoly 4
+}
+pad ride5M {
+maxpoly 4
+}
+pad ride0M {
+maxpoly 4
+}
+pad crash1M {
+maxpoly 4
+}
+pad crash2M {
+maxpoly 4
+}
+pad crash3M {
+maxpoly 4
+}
+pad crash4M {
+maxpoly 4
+}
+pad crash5M {
+maxpoly 4
+}
+pad crash6M {
+maxpoly 4
+}
+pad china1M {
+maxpoly 4
+}
+pad china5M {
+maxpoly 4
+}
+pad splash2M {
+maxpoly 4
+}
+pad CowbellTip {
+maxpoly 4
+}
+pad CowbellEdge {
+maxpoly 4
+}
+pad CountIns {
+maxpoly 4
+}
+}
+usage {
+"KickR" "Kick-R" "KickExt" "Oh" "OhR" "AmbFar" "AmbFarR"
+"KickL" "Kick-L" "KickExt" "Oh" "OhR" "AmbFar" "AmbFarR"
+"Snare" "SnareTop-C" "SnareTop-D" "SnareBottom-C" "SnareBottom-D" "Oh" "OhR" "AmbNear" "AmbNearR" "AmbFar" "AmbFarR"
+"Hats" "Hats" "Oh" "OhR" "AmbFar" "AmbFarR"
+"Tom1" "Tom1" "Oh" "OhR" "AmbFar" "AmbFarR"
+"Tom2" "Tom2" "Oh" "OhR" "AmbFar" "AmbFarR"
+"Tom3" "Tom3" "Oh" "OhR" "AmbFar" "AmbFarR"
+"Tom4" "Tom4" "Oh" "OhR" "AmbFar" "AmbFarR"
+"Tom5" "Tom5" "Oh" "OhR" "AmbFar" "AmbFarR"
+"Ride4" "Oh" "OhR" "AmbFar" "AmbFarR"
+"Ride5" "Oh" "OhR" "AmbFar" "AmbFarR"
+"Ride0" "Oh" "OhR" "AmbFar" "AmbFarR"
+"Crash1" "Oh" "OhR" "AmbFar" "AmbFarR"
+"Crash2" "Oh" "OhR" "AmbFar" "AmbFarR"
+"Crash3" "Oh" "OhR" "AmbFar" "AmbFarR"
+"Crash4" "Oh" "OhR" "AmbFar" "AmbFarR"
+"Crash5" "Oh" "OhR" "AmbFar" "AmbFarR"
+"Crash6" "Oh" "OhR" "AmbFar" "AmbFarR"
+"China1" "Oh" "OhR" "AmbFar" "AmbFarR"
+"China2" "Oh" "OhR" "AmbFar" "AmbFarR"
+"Splash1" "Oh" "OhR" "AmbFar" "AmbFarR"
+"Spock" "Oh" "OhR" "AmbFar" "AmbFarR"
+"Cowbell" "Oh" "OhR" "AmbFar" "AmbFarR"
+"CountIn" "Oh" "OhR" "AmbFar" "AmbFarR"
+}
+bleed {
+"Ride4" {
+leakvolume "AmbFar" 0.372759
+}
+"Ride5" {
+leakvolume "AmbFar" 0.372759
+}
+"Ride0" {
+leakvolume "AmbFar" 0.372759
+}
+"Crash1" {
+leakvolume "AmbFar" 0.372759
+}
+"Crash2" {
+leakvolume "AmbFar" 0.372759
+}
+"Crash3" {
+leakvolume "AmbFar" 0.372759
+}
+"Crash4" {
+leakvolume "AmbFar" 0.372759
+}
+"Crash5" {
+leakvolume "AmbFar" 0.372759
+}
+"Crash6" {
+leakvolume "AmbFar" 0.372759
+}
+"China1" {
+leakvolume "AmbFar" 0.372759
+}
+"China2" {
+leakvolume "AmbFar" 0.372759
+}
+"Splash1" {
+leakvolume "AmbFar" 0.372759
+}
+"Spock" {
+leakvolume "AmbFar" 0.372759
+}
+"Cowbell" {
+leakvolume "AmbFar" 0.372759
+}
+"CountIn" {
+leakvolume "AmbFar" 0.372759
+}
+}
+padsound {
+pad snareRF {
+fadestart 0
+fadetime 0.2
+}
+}
+padpitch {
+}
+midi {
+n 6 6
+n 144 CC16
+n 20 20 9
+n 19 19 8
+n 18 18 7
+n 132 CC4 CC1
+n 36 36 34
+n 35 35
+n 38 38 66 68 70 125
+n 22 22 11 122
+n 42 42 61
+n 21 21 10 44
+n 25 25 14 46
+n 48 48 1 50 81
+n 47 47 2 79
+n 45 45 3 77
+n 43 43 4 74
+n 41 41 5 72
+n 51 51 101
+n 113 113 108
+n 84 84 89 96
+n 49 49
+n 55 55
+n 57 57
+n 52 52
+n 37 37 71 127
+n 40 40 126
+n 33 33
+n 24 24 13 123
+n 26 26 15 124
+n 16 16
+n 60 17 60
+n 63 63
+n 62 62
+n 64 64 12
+n 53 53 102
+n 59 59 103
+n 114 114 109
+n 115 115 110
+n 85 85 90 97
+n 86 86 91 98
+n 28 28
+n 30 30
+n 31 31
+n 32 32
+n 27 27
+n 29 29
+n 119 119
+n 120 120
+n 121 121
+n 82 82
+n 80 80
+n 78 78
+n 75 75
+n 73 73
+n 104 104
+n 105 105
+n 116 116 111
+n 117 117 112
+n 87 87 92 99
+n 88 88 93 100
+n 69 69
+n 39 39
+n 23 23
+n 65 65
+n 106 106
+n 118 118
+n 83 83
+n 54 54
+n 94 94
+n 95 95
+n 58 58
+n 107 107
+n 76 76
+n 56 56
+n 67 67
+}
+mixer {
+Kick-R {
+pan 0.5
+volume 1
+phasereverse 0
+nobleed 0
+xtrafade 0
+leakvol 1
+solo 0
+mute 0
+route 16
+}
+Kick-L {
+pan 0.5
+volume 1
+phasereverse 0
+nobleed 0
+xtrafade 0
+leakvol 1
+solo 0
+mute 0
+route 16
+}
+KickExt {
+pan 0.5
+volume 0
+phasereverse 0
+nobleed 0
+xtrafade 0
+leakvol 1
+solo 0
+mute 0
+route 0
+}
+SnareTop-C {
+pan 0.5
+volume 0
+phasereverse 0
+nobleed 0
+xtrafade 0
+leakvol 1
+solo 0
+mute 0
+route 0
+}
+SnareTop-D {
+pan 0.5
+volume 1
+phasereverse 0
+nobleed 0
+xtrafade 0
+leakvol 1
+solo 0
+mute 0
+route 17
+}
+SnareBottom-C {
+pan 0.5
+volume 1
+phasereverse 0
+nobleed 0
+xtrafade 0
+leakvol 1
+solo 0
+mute 0
+route 18
+}
+SnareBottom-D {
+pan 0.5
+volume 1
+phasereverse 0
+nobleed 0
+xtrafade 0
+leakvol 1
+solo 0
+mute 0
+route 18
+}
+SnareRim-Trash {
+pan 0.5
+volume 0
+phasereverse 0
+nobleed 0
+xtrafade 0
+leakvol 1
+solo 0
+mute 0
+route 0
+}
+Hats {
+pan 0.265556
+volume 1.23682
+phasereverse 0
+nobleed 0
+xtrafade 0
+leakvol 1
+solo 0
+mute 0
+route 20
+}
+Tom1 {
+pan 0.0694444
+volume 1.25893
+phasereverse 0
+nobleed 0
+xtrafade 0
+leakvol 1
+solo 0
+mute 0
+route 19
+}
+Tom2 {
+pan 0.5
+volume 1.41254
+phasereverse 0
+nobleed 0
+xtrafade 0
+leakvol 1
+solo 0
+mute 0
+route 19
+}
+Tom3 {
+pan 0.238889
+volume 1.12202
+phasereverse 0
+nobleed 0
+xtrafade 0
+leakvol 1
+solo 0
+mute 0
+route 19
+}
+Tom4 {
+pan 0.758333
+volume 1.67881
+phasereverse 0
+nobleed 0
+xtrafade 0
+leakvol 1
+solo 0
+mute 0
+route 19
+}
+Tom5 {
+pan 0.930223
+volume 1.41254
+phasereverse 0
+nobleed 0
+xtrafade 0
+leakvol 1
+solo 0
+mute 0
+route 19
+}
+Oh {
+pan 0
+volume 3.5797
+phasereverse 0
+nobleed 0
+xtrafade 0
+leakvol 1
+solo 0
+mute 0
+route 21
+}
+OhR {
+pan 1
+volume 3.5797
+phasereverse 0
+nobleed 0
+xtrafade 0
+leakvol 1
+solo 0
+mute 0
+route 21
+}
+Oh-Drummer {
+pan 0
+volume 1
+phasereverse 0
+nobleed 0
+xtrafade 0
+leakvol 1
+solo 0
+mute 1
+route 21
+}
+Oh-DrummerR {
+pan 1
+volume 1
+phasereverse 0
+nobleed 0
+xtrafade 0
+leakvol 1
+solo 0
+mute 1
+route 21
+}
+AmbNear {
+pan 0
+volume 1
+phasereverse 0
+effect 1 {
+effect 4
+active 1
+0 0.694743
+1 0.28
+2 0.000574303
+3 0.152632
+4 0
+5 1
+}
+nobleed 0
+xtrafade 0
+leakvol 1
+solo 0
+mute 0
+route 22
+}
+AmbNearR {
+pan 1
+volume 1
+phasereverse 0
+nobleed 0
+xtrafade 0
+leakvol 1
+solo 0
+mute 0
+route 22
+}
+AmbFar {
+pan 0
+volume 1
+phasereverse 0
+nobleed 0
+xtrafade 0
+leakvol 1
+solo 0
+mute 0
+route 22
+}
+AmbFarR {
+pan 1
+volume 1
+phasereverse 0
+nobleed 0
+xtrafade 0
+leakvol 1
+solo 0
+mute 0
+route 22
+}
+AmbMono-Near {
+pan 0.5
+volume 0
+phasereverse 0
+nobleed 0
+xtrafade 0
+leakvol 1
+solo 0
+mute 0
+route 0
+}
+AmbMono-Far {
+pan 0.5
+volume 0
+phasereverse 0
+nobleed 0
+xtrafade 0
+leakvol 1
+solo 0
+mute 0
+route 0
+}
+Chamber {
+pan 0
+volume 0
+phasereverse 0
+nobleed 0
+xtrafade 0
+leakvol 1
+solo 0
+mute 0
+route 0
+}
+ChamberR {
+pan 1
+volume 0
+phasereverse 0
+nobleed 0
+xtrafade 0
+leakvol 1
+solo 0
+mute 0
+route 0
+}
+buss 0 {
+pan 0
+volume 1.23682
+phasereverse 0
+effect 0 {
+effect 2
+active 1
+0 0.900593
+1 0.166667
+2 0
+3 0.138724
+4 0
+5 0
+}
+effect 1 {
+effect 1
+active 1
+0 0.5
+1 0.773976
+2 0.111111
+3 0.72
+4 0.143
+5 0.19
+6 0.222
+7 0.301
+8 0.3
+9 0.75
+10 0.438396
+11 0.179
+12 0.6
+13 0
+14 0
+}
+effect 2 {
+effect 1
+active 1
+0 0.5
+1 0.773976
+2 0.111111
+3 0.2
+4 0.373336
+5 0.72
+6 0.6
+7 0.61987
+8 1
+9 0.61
+10 0.68
+11 0.66
+12 1
+13 0.434
+14 0.119
+}
+effect 3 {
+effect 5
+active 1
+0 0.696667
+1 0.666667
+}
+solo 0
+mute 0
+username "Kicks"
+route 0
+send 7 {
+active 1
+pan 0
+volume 0.562342
+}
+}
+buss 1 {
+pan 1
+volume 1.23682
+phasereverse 0
+solo 0
+mute 0
+route 0
+send 7 {
+active 0
+pan 1
+volume 0.562342
+}
+}
+buss 2 {
+pan 0
+volume 1.23682
+phasereverse 0
+effect 0 {
+effect 4
+active 1
+0 0.693565
+1 0.0543963
+2 0.0976439
+3 0.101431
+4 0.2
+5 0
+}
+effect 1 {
+effect 1
+active 1
+0 0.5
+1 0.773976
+2 0.111111
+3 0.5
+4 0.392336
+5 1
+6 0.16
+7 0.489804
+8 1
+9 0.79
+10 0.647408
+11 0
+12 0.6
+13 0.023
+14 0.424112
+}
+solo 0
+mute 0
+username "SD-Top"
+route 0
+send 7 {
+active 1
+pan 0
+volume 1
+}
+}
+buss 3 {
+pan 1
+volume 1.23682
+phasereverse 0
+solo 0
+mute 0
+route 0
+}
+buss 4 {
+pan 0
+volume 1.3755
+phasereverse 0
+effect 0 {
+effect 4
+active 1
+0 0.584054
+1 0.28
+2 0.138995
+3 0.104448
+4 0.252449
+5 0
+}
+effect 1 {
+effect 1
+active 1
+0 0.5
+1 1
+2 0
+3 0.32
+4 0.51842
+5 0.0936668
+6 0.5
+7 0.666667
+8 0.666667
+9 0.5
+10 0.738407
+11 0.666667
+12 0.5
+13 0
+14 0.111111
+}
+solo 0
+mute 0
+username "SD-Bottom"
+route 0
+send 7 {
+active 1
+pan 0
+volume 0.707947
+}
+}
+buss 5 {
+pan 1
+volume 1.3755
+phasereverse 0
+solo 0
+mute 0
+route 0
+send 7 {
+active 0
+pan 1
+volume 0.707947
+}
+}
+buss 6 {
+pan 0
+volume 1
+phasereverse 0
+effect 0 {
+effect 2
+active 1
+0 1
+1 0
+2 0
+3 0.106563
+4 0.166667
+5 0.25
+}
+effect 1 {
+effect 1
+active 1
+0 0.5
+1 0.773976
+2 0.111111
+3 0.614
+4 0.195871
+5 0.238668
+6 0.042
+7 0.41534
+8 0.297667
+9 0.626
+10 0.520407
+11 0.227668
+12 0.5
+13 0
+14 0.612111
+}
+effect 2 {
+effect 5
+active 1
+0 0.723968
+1 0.666667
+}
+solo 0
+mute 0
+username "Toms"
+route 0
+send 7 {
+active 1
+pan 0
+volume 1
+}
+}
+buss 7 {
+pan 1
+volume 1
+phasereverse 0
+solo 0
+mute 0
+route 0
+}
+buss 8 {
+pan 0
+volume 0.281839
+phasereverse 0
+effect 0 {
+effect 2
+active 1
+0 0.999929
+1 0.166667
+2 0.25
+3 0.464804
+4 0
+5 0.75
+}
+solo 0
+mute 0
+username "Hi-Hats"
+route 0
+send 7 {
+active 1
+pan 0
+volume 0.281839
+}
+}
+buss 9 {
+pan 1
+volume 0.281839
+phasereverse 0
+solo 0
+mute 0
+route 0
+send 7 {
+active 0
+pan 1
+volume 0.281839
+}
+}
+buss 10 {
+pan 0
+volume 0.354814
+phasereverse 0
+effect 0 {
+effect 2
+active 1
+0 1
+1 0
+2 0
+3 0.402894
+4 0
+5 0.25
+}
+effect 1 {
+effect 1
+active 1
+0 0.5
+1 0.773976
+2 0.111111
+3 0.5
+4 0.423336
+5 0.666667
+6 0.5
+7 0.666667
+8 0.666667
+9 0.5
+10 0.738407
+11 0.666667
+12 0.832
+13 0
+14 0.111111
+}
+solo 0
+mute 0
+username "Overhead"
+route 0
+send 7 {
+active 1
+pan 0
+volume 0.354814
+}
+}
+buss 11 {
+pan 1
+volume 0.354814
+phasereverse 0
+solo 0
+mute 0
+route 0
+send 7 {
+active 0
+pan 1
+volume 0.354814
+}
+}
+buss 12 {
+pan 0
+volume 0.199527
+phasereverse 0
+effect 0 {
+effect 1
+active 1
+0 0.5
+1 0.773976
+2 0.111111
+3 0.777
+4 0.206521
+5 1
+6 0.118
+7 0.42038
+8 0.666667
+9 0.68
+10 0.451407
+11 0.06
+12 0.75
+13 0
+14 0.111111
+}
+effect 1 {
+effect 4
+active 1
+0 0.333102
+1 0.655856
+2 0
+3 0.13697
+4 0
+5 1
+}
+solo 0
+mute 0
+username "Room"
+route 0
+send 7 {
+active 1
+pan 0
+volume 0.199526
+}
+}
+buss 13 {
+pan 1
+volume 0.199527
+phasereverse 0
+solo 0
+mute 0
+route 0
+send 7 {
+active 0
+pan 1
+volume 0.199526
+}
+}
+buss 14 {
+pan 0
+volume 0.15849
+phasereverse 0
+effect 0 {
+effect 4
+active 1
+0 0.27
+1 0.687934
+2 0
+3 0
+4 0
+5 1
+}
+solo 0
+mute 0
+username "Compression"
+route 0
+}
+buss 15 {
+pan 1
+volume 0.15849
+phasereverse 0
+solo 0
+mute 0
+route 0
+}
+buss 16 {
+pan 0
+volume 1
+phasereverse 0
+solo 0
+mute 0
+route -1
+}
+buss 17 {
+pan 1
+volume 1
+phasereverse 0
+solo 0
+mute 0
+route -1
+}
+buss 18 {
+pan 0
+volume 1
+phasereverse 0
+solo 0
+mute 0
+route -1
+}
+buss 19 {
+pan 1
+volume 1
+phasereverse 0
+solo 0
+mute 0
+route -1
+}
+buss 20 {
+pan 0
+volume 1
+phasereverse 0
+solo 0
+mute 0
+route -1
+}
+buss 21 {
+pan 1
+volume 1
+phasereverse 0
+solo 0
+mute 0
+route -1
+}
+buss 22 {
+pan 0
+volume 1
+phasereverse 0
+solo 0
+mute 0
+route -1
+}
+buss 23 {
+pan 1
+volume 1
+phasereverse 0
+solo 0
+mute 0
+route -1
+}
+buss 24 {
+pan 0
+volume 1
+phasereverse 0
+solo 0
+mute 0
+route -1
+}
+buss 25 {
+pan 1
+volume 1
+phasereverse 0
+solo 0
+mute 0
+route -1
+}
+buss 26 {
+pan 0
+volume 1
+phasereverse 0
+solo 0
+mute 0
+route -1
+}
+buss 27 {
+pan 1
+volume 1
+phasereverse 0
+solo 0
+mute 0
+route -1
+}
+buss 28 {
+pan 0
+volume 1
+phasereverse 0
+solo 0
+mute 0
+route -1
+}
+buss 29 {
+pan 1
+volume 1
+phasereverse 0
+solo 0
+mute 0
+route -1
+}
+buss 30 {
+pan 0
+volume 1
+phasereverse 0
+solo 0
+mute 0
+route -1
+}
+buss 31 {
+pan 1
+volume 1
+phasereverse 0
+solo 0
+mute 0
+route -1
+}
+output 0 {
+pan 0
+volume 1.70125
+phasereverse 0
+solo 0
+mute 0
+}
+output 1 {
+pan 1
+volume 1.70125
+phasereverse 0
+solo 0
+mute 0
+}
+output 2 {
+pan 0
+volume 1
+phasereverse 0
+solo 0
+mute 0
+}
+output 3 {
+pan 1
+volume 1
+phasereverse 0
+solo 0
+mute 0
+}
+output 4 {
+pan 0
+volume 1
+phasereverse 0
+solo 0
+mute 0
+}
+output 5 {
+pan 1
+volume 1
+phasereverse 0
+solo 0
+mute 0
+}
+output 6 {
+pan 0
+volume 1
+phasereverse 0
+solo 0
+mute 0
+}
+output 7 {
+pan 1
+volume 1
+phasereverse 0
+solo 0
+mute 0
+}
+output 8 {
+pan 0
+volume 1
+phasereverse 0
+solo 0
+mute 0
+}
+output 9 {
+pan 1
+volume 1
+phasereverse 0
+solo 0
+mute 0
+}
+output 10 {
+pan 0
+volume 1
+phasereverse 0
+solo 0
+mute 0
+}
+output 11 {
+pan 1
+volume 1
+phasereverse 0
+solo 0
+mute 0
+}
+output 12 {
+pan 0
+volume 1
+phasereverse 0
+solo 0
+mute 0
+}
+output 13 {
+pan 1
+volume 1
+phasereverse 0
+solo 0
+mute 0
+}
+output 14 {
+pan 0
+volume 1
+phasereverse 0
+solo 0
+mute 0
+}
+output 15 {
+pan 1
+volume 1
+phasereverse 0
+solo 0
+mute 0
+}
+output 16 {
+pan 0
+volume 1
+phasereverse 0
+solo 0
+mute 0
+}
+output 17 {
+pan 1
+volume 1
+phasereverse 0
+solo 0
+mute 0
+}
+output 18 {
+pan 0
+volume 1
+phasereverse 0
+solo 0
+mute 0
+}
+output 19 {
+pan 1
+volume 1
+phasereverse 0
+solo 0
+mute 0
+}
+output 20 {
+pan 0
+volume 1
+phasereverse 0
+solo 0
+mute 0
+}
+output 21 {
+pan 1
+volume 1
+phasereverse 0
+solo 0
+mute 0
+}
+output 22 {
+pan 0
+volume 1
+phasereverse 0
+solo 0
+mute 0
+}
+output 23 {
+pan 1
+volume 1
+phasereverse 0
+solo 0
+mute 0
+}
+output 24 {
+pan 0
+volume 1
+phasereverse 0
+solo 0
+mute 0
+}
+output 25 {
+pan 1
+volume 1
+phasereverse 0
+solo 0
+mute 0
+}
+output 26 {
+pan 0
+volume 1
+phasereverse 0
+solo 0
+mute 0
+}
+output 27 {
+pan 1
+volume 1
+phasereverse 0
+solo 0
+mute 0
+}
+output 28 {
+pan 0
+volume 1
+phasereverse 0
+solo 0
+mute 0
+}
+output 29 {
+pan 1
+volume 1
+phasereverse 0
+solo 0
+mute 0
+}
+output 30 {
+pan 0
+volume 1
+phasereverse 0
+solo 0
+mute 0
+}
+output 31 {
+pan 1
+volume 1
+phasereverse 0
+solo 0
+mute 0
+}
+}
